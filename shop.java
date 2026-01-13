@@ -38,7 +38,15 @@ class Cofee{
                 coffeeName = "Espresso";
                 price = 80;
             break;
-
         }
+        int total = price * quantity;
+
+        System.out.println("\n☕ Order Summary ☕");
+        System.out.println("Coffee: " + coffeeName);
+        System.out.println("Quantity: " + quantity);
+        System.out.println("Total Bill: ₹" + total);
+
+        System.out.println("\nThank you! Visit Again 😊");
+        sc.close();
     }
 }
