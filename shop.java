@@ -30,23 +30,17 @@ class Cofee{
             break;
 
             case 3 :
-                coffeeName = "Espresso";
-                price = 80;
+                coffeeName = "Latte";
+                price = ₹150;
             break;
 
             case 4 :
-                coffeeName = "Espresso";
-                price = 80;
+                coffeeName = "Cold Coffee";
+                price = ₹100;
             break;
+            default : 
+            System.out.println("Invalid choise !!");
+            System.exit(0);
         }
-        int total = price * quantity;
-
-        System.out.println("\n☕ Order Summary ☕");
-        System.out.println("Coffee: " + coffeeName);
-        System.out.println("Quantity: " + quantity);
-        System.out.println("Total Bill: ₹" + total);
-
-        System.out.println("\nThank you! Visit Again 😊");
-        sc.close();
     }
 }
