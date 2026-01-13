@@ -46,7 +46,7 @@ class Cofee{
         System.out.println("Quantity: " + quantity);
         System.out.println("Total Bill: ₹" + total);
 
-        System.out.println("\nThank you! Visit Again 😊");
+        System.out.println("\nThank you! Visit Again ");
         sc.close();
     }
 }
